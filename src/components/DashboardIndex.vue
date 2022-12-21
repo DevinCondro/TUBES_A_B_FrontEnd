@@ -1,25 +1,27 @@
 <template>
     <v-main>
         <!-- Carousel -->
-        <v-carousel cycle height="550" hide-delimiter-background hide-delimiters show-arrows-on-hover>
+        <v-carousel cycle height="530" widht="100" hide-delimiter-background hide-delimiters show-arrows-on-hover>
             <v-carousel-item v-for="(item, i) in items" :key="i" :src="item.src">
-                <v-img src="require('../path/to.img')"></v-img>
+                <v-img src="require('src/assets/Carousel/to.jpeg')"></v-img>
             </v-carousel-item>
         </v-carousel>
         <!-- Footer -->
         <v-footer fixed dark padless>
-            <v-card flat tile class="flex blue lighten-1 white--text text-center">
+            <v-card flat tile class="flex black lighten-1 white--text text-center">
                 <v-card-text>
-                    <v-btn v-for="icon in sosmed" :key="icon" class="mx-4 white--text" icon>
+                    <!-- <v-btn v-for="icon in sosmed" :key="icon" class="mx-4 white--text" icon>
                         <v-icon size="24px">
                             {{ icon }}
                         </v-icon>
-                    </v-btn>
+                    </v-btn> -->
                 </v-card-text>
                 <v-spacer></v-spacer>
                 <v-card-text class="white--text pt-0">
-                    At A Hotel we strive to give you the best services and hospitality, so that you'll feel comfortable. That is what we do,
-                    to make your stay feels like home, with an extra view.
+                  Hotel bintang 5 yang dikelola keluarga yang terletak di Yogyakarta
+                  dengan latar belakang Sungai Mataram yang indah. Bersantailah di taman
+                  kami yang menakjubkan, minum anggur & bersantap di Madhang Resto yang
+                  nyaman.
                 </v-card-text>
                 <v-spacer></v-spacer>
                 <v-divider></v-divider>
@@ -34,7 +36,7 @@
 
 <style>
 .text {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow";
 }
 </style>
 
@@ -44,22 +46,22 @@ export default {
         return {
             items: [
                 {
-                    src: require('../assets/forCarousel/Slide1.jpeg')
+                    src: require('../assets/Carousel/Slide1.jpeg')
                 },
                 {
-                    src: require('../assets/forCarousel/Slide2.jpeg')
+                    src: require('../assets/Carousel/Slide2.jpeg')
                 },
                 {
-                    src: require('../assets/forCarousel/Slide3.jpeg')
+                    src: require('../assets/Carousel/Slide3.jpeg')
                 },
                 {
-                    src: require('../assets/forCarousel/Slide4.jpeg')
+                    src: require('../assets/Carousel/Slide4.jpeg')
                 },
                 {
-                    src: require('../assets/forCarousel/Slide5.jpeg')
+                    src: require('../assets/Carousel/Slide5.jpeg')
                 },
                 {
-                    src: require('../assets/forCarousel/Slide6.jpeg')
+                    src: require('../assets/Carousel/Slide6.jpeg')
                 },
             ],
         }

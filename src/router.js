@@ -12,7 +12,7 @@ const router = new VueRouter({
     routes:[
         {
             path:"/",
-            name: "admin",
+            name: "dashboard",
             component: importComponent("DashboardLayout"),
             children:[
                 {
@@ -22,8 +22,48 @@ const router = new VueRouter({
                 },
                 {
                     path:"/kamar",
-                    name:"PemesananKamar",
-                    component: importComponent("ToDoList/PemesananKamar"),
+                    name:"kamar.index",
+                    component: ()=>import("@/components/ToDoList/PemesananKamar/indexPage.vue"),
+                },
+                {
+                    path:"/kamar/create",
+                    name:"kamar.create",
+                    component: ()=>import("@/components/ToDoList/PemesananKamar/createPage.vue"),
+                },
+                {
+                    path:"/kamar/edit",
+                    name:"kamar.edit",
+                    component: ()=>import("@/components/ToDoList/PemesananKamar/editPage.vue"),
+                },
+                {
+                    path:"/makanan",
+                    name:"makanan.index",
+                    component: ()=>import("@/components/ToDoList/PemesananMakanan/indexPage.vue"),
+                },
+                {
+                    path:"/makanan/create",
+                    name:"makanan.create",
+                    component: ()=>import("@/components/ToDoList/PemesananMakanan/createPage.vue"),
+                },
+                {
+                    path:"/makanan/edit",
+                    name:"makanan.edit",
+                    component: ()=>import("@/components/ToDoList/PemesananMakanan/editPage.vue"),
+                },
+                {
+                    path:"/ballroom",
+                    name:"ballroom.index",
+                    component: ()=>import("@/components/ToDoList/PemesananBallroom/indexPage.vue"),
+                },
+                {
+                    path:"/ballroom/create",
+                    name:"ballroom.create",
+                    component: ()=>import("@/components/ToDoList/PemesananBallroom/createPage.vue"),
+                },
+                {
+                    path:"/ballroom/edit",
+                    name:"ballroom.edit",
+                    component: ()=>import("@/components/ToDoList/PemesananBallroom/editPage.vue"),
                 },
             ],
         },
@@ -42,10 +82,11 @@ const router = new VueRouter({
         //     name: "Home",
         //     component: importComponent("HomePage"),
         // },
-        // {
-        //     path: "*",
-        //     redirect: "/"
-        // },
+        {
+            path: "/verify-email",
+            name: "verif",
+            component: importComponent("VerifikasiEmail")
+        },
     ],
 });
 
