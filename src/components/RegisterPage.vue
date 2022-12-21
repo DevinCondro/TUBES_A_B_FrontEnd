@@ -138,12 +138,12 @@ export default {
                 password: password,
                 // type: type 
             }).then(() => { 
-              alert("register test")
+              alert("Register Berhasil")
               console.log("Register Berhasil")
               router.push("Login")
               
             }).catch(error => { 
-              console.log("Gagal ya gaes yak")
+              console.log("Gagal")
                 //assign state validation with error 
                 validation.value = error.response.data 
             }) 

@@ -61,11 +61,11 @@ setup() {
                 password: password,
                 withCredentials: true
             }).then(() => { 
-              alert("register test")
-              console.log("Register Berhasil")
+              alert("Login Berhasil")
+              console.log("Login Berhasil")
               router.push("dashboard")
             }).catch(error => { 
-              console.log("Gagal ya gaes yak")
+              console.log("Gagal")
                 //assign state validation with error 
                 validation.value = error.response.data 
             }) 
