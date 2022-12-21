@@ -47,7 +47,7 @@
               $$$
             </div>
 
-            <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div>
+            <div>Kamar dengan kualitas terbaik, menyediakan fasilitas terbaik bak kamar presiden dunia.</div>
           </v-card-text>
 
           <v-divider class="mx-4"></v-divider>
@@ -110,7 +110,7 @@
               $$
             </div>
 
-            <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div>
+            <div>Kamar dengan standar internasional dengan tampilan kamar dan pelayanan terbaik.</div>
           </v-card-text>
 
           <v-divider class="mx-4"></v-divider>
@@ -173,7 +173,7 @@
               $$
             </div>
 
-            <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div>
+            <div>Kamar dengan kualitas terbaik tidak kalah dengan kamar lainnya.</div>
           </v-card-text>
 
           <v-divider class="mx-4"></v-divider>
@@ -236,7 +236,7 @@
               $
             </div>
 
-            <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div>
+            <div>Standard dengan fasilitas dan pelayanan tidak kalah baik.</div>
           </v-card-text>
 
           <v-divider class="mx-4"></v-divider>
@@ -299,7 +299,7 @@
               $$
             </div>
 
-            <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div>
+            <div>Kamar dengan pelayanan terbaik dikelas nya.</div>
           </v-card-text>
 
           <v-divider class="mx-4"></v-divider>

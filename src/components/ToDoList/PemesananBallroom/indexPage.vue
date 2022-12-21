@@ -27,8 +27,9 @@
                                 $ • Big Size, Air Conditioner, Table
                             </div>
 
-                            <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio
-                                seating.</div>
+                            <div>Ballroom dengan tampilan bagus dan isi yang menarik mata. Sehingga
+                                Pengunjung akan terkesima
+                            </div>
                         </v-card-text>
 
                         <v-divider class="mx-4"></v-divider>
@@ -69,8 +70,7 @@
                                 $$ • Massive Size, Air Conditioner, Table, Chair
                             </div>
 
-                            <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio
-                                seating.</div>
+                            <div>Ballroom dengan konsep buah lemon yang dimana arsitektur ruangan dibuat dengan konsep natural.</div>
                         </v-card-text>
 
                         <v-divider class="mx-4"></v-divider>
@@ -111,8 +111,7 @@
                                 $$$ • Massive Size, Beverages, Drink, Table
                             </div>
 
-                            <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio
-                                seating.</div>
+                            <div>Ballroom dengan konsep buah lemon yang dimana arsitektur ruangan dibuat dengan konsep natural.</div>
                         </v-card-text>
 
                         <v-divider class="mx-4"></v-divider>

@@ -1,6 +1,8 @@
 <template>
     <div>
-      <h1>Verifying Email.....</h1>
+      <h1>Verifying Email For You....
+        Please Wait.
+      </h1>
     </div>
   </template>
   
@@ -30,11 +32,7 @@
     },
     created() {
       console.log("Created");
-      // let params = ;
       this.verifyEmail({ ...this.$route.query });
-      // .then(() => {
-      //   route.push({ name: "Login" });
-      // });
     },
   };
   </script>
